@@ -1,0 +1,25 @@
+body>div{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+
+    width: 50vw;
+    float: 50vh;
+
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+body>div>div{
+    background-color: green;
+    width: 50%;
+    height: 50%;
+    overflow: hidden; /*tambem pode ser scroll*/
+
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}

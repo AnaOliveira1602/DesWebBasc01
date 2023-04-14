@@ -1,0 +1,17 @@
+img{
+    border-width: 2px;
+    border-color: blue;
+    border-style: solid; 
+}
+
+
+
+/*li:nth-child(1)~li tirando o primeiro elemento */
+li {
+    
+    border-width: 2px;
+    border-color: black;
+    border-style: solid; 
+    width: max-content;
+    margin-top: 20px;
+}

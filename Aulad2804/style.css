@@ -1,0 +1,57 @@
+/*div{
+    width: 250px;
+    height: 200px;
+    background-color: yellow;
+}
+
+body>div:nth-child(1){
+    background-color: blue;
+}
+
+div>div:nth-child(2){
+    background-color: pink;
+    top: 300px;
+    left: 300px;
+    position: absolute;
+}
+
+div:nth-child(3){
+    background-color: green;
+}
+*/
+
+
+
+div{
+    width: 200px;
+    height: 200px;
+}
+
+#div_1{
+    background-color: red;
+}
+
+#div_2{
+    background-color: pink;
+    bottom: 100px;
+    left: 100px;
+    position: relative;
+}
+
+#div_3{
+    background-color: yellow;
+    z-index: 1;
+    position: relative;
+}
+
+#div_4{
+    background-color: purple;
+    bottom: 100px;
+    left: 100px;
+    position: relative;
+}
+
+
+
+
+

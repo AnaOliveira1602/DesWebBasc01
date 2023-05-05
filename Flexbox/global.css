@@ -1,0 +1,37 @@
+.container{
+    background-color: aqua;
+    width: 100vw;
+    height: 50vh;
+    border: 2px solid rgb(9, 49, 49);
+    box-sizing: border-box;
+    border-radius: 15px;
+    
+    
+    display: flex;
+    flex-direction: row;
+
+
+    /*Eixo principal*/
+    justify-content: space-evenly;
+
+    /*Eixo trans*/
+    align-items: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    overflow: auto;
+
+
+}
+
+body{
+    margin: 0px;
+}
+
+.itens{
+    background-color: pink;
+    border: 2px solid rgb(124, 55, 66);
+    width: 100px;
+    height: 100px;
+    font-size: 2em;
+    text-align: center;
+}

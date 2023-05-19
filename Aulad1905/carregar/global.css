@@ -1,0 +1,44 @@
+.circulo{
+    width: 50px;
+    height: 50px;
+    border: 2px solid red;
+    border-radius: 50px;
+
+    animation-name: andar;
+    animation-duration: 2s;
+    animation-delay: 500ms;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+
+.barra{
+    width: 500px;
+    height: 15px;
+    background-color: rgb(134, 119, 69);
+}
+
+.barra>.bola{
+    width: 50px;
+    height: 15px;
+    background-color: rgb(47, 95, 47);
+    
+    animation-name: andar;
+    animation-duration: 2s;
+    animation-delay: 500ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode:both;
+}
+
+@keyframes andar{
+    0%{
+        left: -200px;
+        top: 0px;
+    }
+
+    100%{
+        left: 95vw;
+        top: 0px;
+    }
+}

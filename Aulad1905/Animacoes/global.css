@@ -1,0 +1,48 @@
+div{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    background-image: url("imagens/download.jpg");
+    background-size: 200px 150px;
+
+    animation-name: andar;
+    animation-duration: 2s;
+    animation-delay: 500ms;
+    animation-timing-function: cubic-bezier(1, 0.18, 0, 0.92);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode:both;
+}
+
+@keyframes andar{
+    0%{
+        left: -200px;
+        top: 0px;
+    }
+
+    20%{
+        left: 50vw;
+        top: 50vh;
+    }
+
+    49.99%{
+        background-image: url("imagens/download.jpg");
+    }
+
+
+    60%{
+        border: 5px yellow solid;
+        background-image: url("imagens/download\ \(1\).jpg");
+    }
+
+    99.99%{
+        background-image: url("imagens/download\ \(1\).jpg");
+    }
+
+    100%{
+        left: 95vw;
+        top: 0px;
+    }
+}

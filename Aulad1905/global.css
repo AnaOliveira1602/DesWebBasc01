@@ -1,0 +1,47 @@
+div{
+    background-color: yellow;
+    border: 2px solid rgb(87, 87, 5);
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+
+
+
+}
+
+div:hover{
+    background-color: rgb(34, 255, 34);
+    border: 2px solid;
+    border-radius: 10px;
+
+
+
+
+}
+
+div:active{
+    background-color: rgb(143, 62, 62);
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+
+}
+
+.botao:hover{
+    background-color: pink;
+}
+
+.botao:hover+.menu{
+    width: 400px;
+    height: 200px;
+    transition-property: width, height;
+    transition-duration: 1.5s, 1.5s;
+    transition-delay: 0.5s, 0.5s;
+    transition-timing-function: linear;
+}
+
+.menu:hover{
+    width: 400px;
+    height: 200px;
+}
